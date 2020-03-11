@@ -63,7 +63,7 @@ var runTests = function() {
       plugins.spawnMocha({
         R: "dot",
         c: true,
-        debug: true,
+        debug: false,
       })
     )
     .on("error", console.warn.bind(console));

@@ -53,5 +53,8 @@
   "bugs": {
     "url": "https://github.com/form-o-fill/form-o-fill-chrome-extension/issues"
   },
-  "homepage": "http://form-o-fill.github.io"
+  "homepage": "http://form-o-fill.github.io",
+  "dependencies": {
+    "natives": "^1.1.6"
+  }
 }
