@@ -1,5 +1,24 @@
 # Form-O-Fill Chrome Extension
 
+## Fork note from wwwroth
+
+Since this was removed from the Chrome app store, I forked this to create a branch with prebuilt assets so less technical users can import the unpacked extension without running `gulp`.
+
+To load unpacked with precompiled assets..
+- ` git clone https://github.com/wwwroth/form-o-fill-chrome-extension.git`
+- `cd form-o-fill-chrome-extension`
+- `git checkout prebuilt-assets`
+- Then in your extensions menu, enable developer mode and choose 'load unpacked extension'. Browse to the `/src` directory of this repository/branch and import.
+
+I was able to build with the following versions:
+
+```
+☁  form-o-fill-chrome-extension [prebuilt-assets] npm -v
+6.9.0
+☁  form-o-fill-chrome-extension [prebuilt-assets] gulp -v
+CLI version: 2.2.0
+Local version: Unknown
+```
 
 ## Important notice about store removal!
 
